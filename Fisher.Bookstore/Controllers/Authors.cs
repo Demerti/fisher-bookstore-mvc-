@@ -4,13 +4,19 @@ using Microsoft.AspNetCore.Mvc;
 namespace Fisher.Bookstore.Controllers
 {
     
-    public class HomeController : Controller
+    
+    public class AuthorsController : Controller
     {
         
         public IActionResult Index()
         {
-            return View();
+           return View(); 
+            
         }
         
+        public IActionResult Featured()
+        {
+           return View();
+        }
     }
 }
